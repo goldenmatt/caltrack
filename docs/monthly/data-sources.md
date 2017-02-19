@@ -1,20 +1,12 @@
 
-# Data Sources for CalTRACK Beta Test
+# Data Sources for CalTRACK 
 
 
-Two major types of data files are supplied for the CalTRACK Beta: project data and consumption data. This data is linked with "cross-reference" files that define the mapping between ID columns in the two types of files.
+Two major types of data files are required to run the CalTRACK Methods: project data and consumption data. This data is linked with "cross-reference" files that define the mapping between ID columns in the two types of files.
 
 There are two types of project files, which have slightly different column types--`AHU` and `AHUP`--requiring different logic for determining baseline and reporting period dates.
 
 Consumption data is further broken down into five file types: 15 minutely electricity, hourly electricity, daily natural gas, monthly electricity, and monthly natural gas.
-
-The beta test set uses the following files:
-
-* Project:
-
-    `CalTRACK (AHUP) from 1_1_14__6_30_15_v2_FINAL_090816.csv`
-    `CalTRACK (AHU) from 1_1_14__6_30_15_v2_FINAL_090816.csv`
-    `CalTRACK (AHU) from 7_1_15__6_30_16_v2_FINAL_090816.csv`
 
 * Consumption:
 
@@ -129,16 +121,12 @@ The cleaned data should be is as follows:
 
 **Projects**
 
-_AHU_
-
 | Field | Value |
 | --- | --- |
 | project_id | Project file, column `Application No.` |
 | zipcode | Project file, column `Building ZIP Code` |
 | baseline_period_end | Column `Work Start Date` unless empty, then column `Initial Approval Date` |
 | reporting_period_start | Column `Work Finish Date` unless empty, then column `Initial Submission Date` |
-
-_AHUP_
 
 | Field | Value |
 | --- | --- |
@@ -200,7 +188,6 @@ _Natural Gas_
 | estimated | `False` |
 | label | monthly-`SA_ID` |
 | unit | `THM` |
-
 
 
 ### Weather
