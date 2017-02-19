@@ -1,4 +1,4 @@
-# Welcome to the CalTRACK Technical Documentation
+# CalTRACK Technical Documentation
 
 This site represents the official technical documentation for CalTRACK, a set of open methods developed and tested through a multi-stakeholder process for estimating gross savings for residential energy efficiency programs in California.
 
