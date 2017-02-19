@@ -2,7 +2,7 @@
 
 -----------
 
-The goal of CalTRACK is to develop replicable, consistent, and methodologically defensible estimators of savings over **portfolios of homes**.
+The goal of CalTRACK is to develop replicable, consistent, and methodologically defensible estimators of savings over **portfolios of residential buldings**.
 
 Portfolio-level savings statistics are based on aggregations of site-level savings gross savings estimates created using the CalTRACK site-level monthly gross savings analysis methods.
 
@@ -155,4 +155,6 @@ $$CI(95) = +/- (FSU * 1.96) * 100$$
 
 #### Note on the lack of comparison group adjustments in CalTRACK technical specification
 
-While the technical working group acknowledged the potential use of comparison groups in gross savings estimation to correct for population-wide exogenous effects on use, after extensive debate, it was decided that the CalTRACK use cases (pay-for-performance in particular) required the ability for non-utility actors to be able to estimate savings without access to comparison group data. While several promising ideas were developed through the technical working group process about how to address this issue (utilities publishing public adjustment factors based on pre-tabilated comparison groups for example), there were serious concern about feasbility in time for early 2017 roll out of the P4P pilot. As a result, the issue of transparent and replicable comparison group adjustments as part of CalTRACK methods was left for the next version of CalTRACK technical specifications.
+The CalTRACK Methods are designed to generate estimates of Normalized Metered Gross Savings, and does not replace EM&V for the purposes of arriving at net savings.
+
+While the technical working group acknowledged the potential use of comparison groups in gross savings estimation to correct for population-wide exogenous effects on use, after extensive debate, it was decided that the CalTRACK use cases (pay-for-performance in particular) required the ability for non-utility actors to be able to estimate savings without access to comparison group data and should align with savings at the meter. While several ideas were discussed through the technical working group process about how to address this issue, there were serious concern about feasbility of these approaches. 
